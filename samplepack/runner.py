@@ -1,5 +1,5 @@
-from sample.sample01 import sample01
-from sample.sample02 import sample02
+from samplepack.sample01 import sample01
+from samplepack.sample02 import sample02
 
 
 sample01.func_one()
