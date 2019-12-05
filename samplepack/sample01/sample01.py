@@ -1,5 +1,5 @@
 import numpy as np  
-from ..setting import temp
+from ..settings import temp
 
 # print statement before func_one
 print('hello world 1')
