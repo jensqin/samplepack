@@ -1,1 +1,1 @@
-from .sample01 import func_one
+from .sample01 import add_one

@@ -1,8 +1,3 @@
-.. samplepack documentation master file, created by
-   sphinx-quickstart on Thu Dec  5 14:57:24 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to samplepack's documentation!
 ======================================
 
@@ -10,7 +5,11 @@ Welcome to samplepack's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+.. automodule:: samplepack.sample01.sample01
+    :members:
 
+.. automodule:: samplepack.sample02.sample02
+    :members:
 
 Indices and tables
 ==================

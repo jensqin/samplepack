@@ -1,6 +1,12 @@
+"""The runner.py module.
+
+This module is only for running functions.
+
+"""
+
 from samplepack.sample01 import sample01
 from samplepack.sample02 import sample02
 
-
-sample01.func_one()
-sample02.func_two()
+if __name__ == "__main__":
+    print('1 + 1 = ')
+    print(sample01.add_one(1))

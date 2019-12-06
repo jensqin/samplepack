@@ -1,10 +1,27 @@
+"""The sample02.py module.
+
+This module has a function called add_two.
+
+"""
+
 import numpy as np 
 
+# function definition
 
-print('hello world 02')
+def add_two(n):
+    """
+    add_two(n)
 
-def func_two():
+    The sum of a number and two.
+
+    Parameters
+    __________
+    n : int
+        The input number.
+
+    Returns
+    _______
+    int
+        The value :math:`n + 2`.
     """
-    Docstring for func_two.
-    """
-    print('function 02')
+    return n + 2

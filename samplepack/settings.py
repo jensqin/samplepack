@@ -1,4 +1,2 @@
-import numpy as np 
-
-
-temp = 3
+# print statement setting
+prstat = 'This is a print statement.'

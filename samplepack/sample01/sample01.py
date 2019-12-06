@@ -1,13 +1,33 @@
+"""The sample01.py module.
+
+This module has a function called add_one.
+
+"""
+
 import numpy as np  
-from ..settings import temp
+from ..settings import prstat
 
-# print statement before func_one
-print('hello world 1')
+# function definition.
 
-def func_one():
+def add_one(n):
     """
-    Docstring for func_one.
+    add_one(n)
+
+    The sum of a number and one.
+
+    Parameters
+    __________
+    n : int
+        The input number.
+
+    Returns
+    _______
+    int
+        The value :math:`n + 1`.
     """
-    print('function 01')
-    print(temp)
-    return np.sqrt(4)
+
+    print(prstat)
+    return n + 1
+
+if __name__ == "__main__":
+    print('hello world 1')
