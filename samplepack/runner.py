@@ -4,8 +4,8 @@ This module is only for running functions.
 
 """
 
-from samplepack.sample01 import sample01
-from samplepack.sample02 import sample02
+from samplepack import sample01
+from samplepack import sample02
 
 if __name__ == "__main__":
     print("1 + 1 = ")
