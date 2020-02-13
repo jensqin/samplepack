@@ -1,2 +1,2 @@
 # print statement setting
-prstat = 'This is a print statement.'
+prstat = "This is a print statement."

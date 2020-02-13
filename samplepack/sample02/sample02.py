@@ -4,9 +4,9 @@ This module has a function called add_two.
 
 """
 
-import numpy as np 
 
 # function definition
+
 
 def add_two(n):
     """

@@ -4,10 +4,10 @@ This module has a function called add_one.
 
 """
 
-import numpy as np  
-from ..settings import prstat
+from samplepack.settings import prstat
 
 # function definition.
+
 
 def add_one(n):
     """
@@ -29,5 +29,6 @@ def add_one(n):
     print(prstat)
     return n + 1
 
+
 if __name__ == "__main__":
-    print('hello world 1')
+    print("hello world 1")
